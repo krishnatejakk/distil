@@ -7,3 +7,7 @@ decile_distil.egg-info/
 distil/active_learning_strategies/glister_new.py
 distil/active_learning_strategies/glister_full.py
 docs/build/
+cifar-10-batches-py/
+*.npz
+*.gz
+*.pth

@@ -62,7 +62,7 @@ class ASCG(Strategy):
     
     def __init__(self, labeled_dataset, unlabeled_dataset, net, nclasses, args={}): #
         
-        super(SCG, self).__init__(labeled_dataset, unlabeled_dataset, net, nclasses, args)        
+        super(ASCG, self).__init__(labeled_dataset, unlabeled_dataset, net, nclasses, args)        
 
     def select(self, budget):
         """
